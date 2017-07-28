@@ -1,0 +1,16 @@
+== README
+
+```
+rails console
+
+# print mailing labels
+PrintLabels.do_it
+
+
+# send orders via lulu (CHARGES CREDIT CARD!!!)
+PlaceOrders.do_it
+
+# send epubs (sends real emails to people)
+SendEpubs.do_it
+
+```

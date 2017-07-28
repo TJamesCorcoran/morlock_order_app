@@ -1,0 +1,76 @@
+
+Thanks again for backing the Powers of the Earth kickstarter.
+
+               
+Good news - your ebooks are ready!
+
+<% if @send_epub %>
+Epub files custom prepared for you are here:
+<% @volume_numbers.each do |vol_num| %>
+  http://morlockpublishing.com/wp-content/uploads/kickstarter_epub_files/aristillus_<%= vol_num %>_<%= @fingerprint %>.epub
+<% end %>
+<% end %>
+
+<% if @send_mobi %>
+Mobi files custom prepared for you are here:
+<% @volume_numbers.each do |vol_num| %>
+  http://morlockpublishing.com/wp-content/uploads/kickstarter_epub_files/aristillus_<%= vol_num %>_<%= @fingerprint %>.mobi
+<% end %>
+<% end %>
+
+<% if @send_pdf %>
+PDF files custom prepared for you are here:
+<% @volume_numbers.each do |vol_num| %>
+  http://morlockpublishing.com/wp-content/uploads/kickstarter_epub_files/aristillus_<%= vol_num %>_<%= @fingerprint %>.pdf
+<% end %>
+<% else %>
+PDF versions will come soon.
+<% end %>
+
+Read EPUBs on your kindle or other tablet
+-----------------------------------------
+
+Follow the steps here
+
+    http://www.pcmag.com/article2/0,2817,2484180,00.asp
+
+Read the PDFs on a desktop computer
+-----------------------------------
+Open the links, one at a time, in a web browser, and
+then either right-click and select "save as", or type Control-S.
+
+You can use Adobe Acrobat ( available free at
+https://get.adobe.com/reader/ ) or Evince ( available free at
+https://wiki.gnome.org/Apps/Evince/Downloads ).
+
+
+Read the PDFs on a tablet
+---------------------------
+
+Using your tablet, use a webbrowser to open the links, one at a time.
+The web broswer will offer to save the files.  On a Nexus use the
+built in PDF viewer (
+https://play.google.com/store/apps/details?id=com.google.android.apps.pdfviewer&hl=en
+)
+
+On an iPad use Adobe Acrobat (
+https://itunes.apple.com/us/app/adobe-acrobat-reader-view-create-convert-pdfs/id469337564?mt=8
+)
+
+
+
+Support
+-------
+
+The best way to get your questions about reading PDFs, installing
+epubs on your device, etc. answered is to go here:
+
+  http://morlockpublishing.com/e-book-support-thread/
+
+Any replies to this email will go to null@example.com and will not reach me.
+
+
+TJIC
+
+--
+This email was sent to <%= @email %>.
